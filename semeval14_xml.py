@@ -92,11 +92,11 @@ if __name__ == "__main__":
 
     file_map = {
         "restaurant": {
-            "train": ("datasets/SemEval2014/train/Restaurants_Train_v2.xml", "join"), # join/aspect
+            "train": ("datasets/SemEval2014/train/Restaurants_Train_v2.xml", "aspect"), # join/aspect
             "test": ("datasets/SemEval2014/test/Restaurants_Test_Data_phaseB.xml", "aspect")
         },
         "laptop": {
-            "train": ("datasets/SemEval2014/train/Laptop_Train_v2.xml", "join"), # join/aspect
+            "train": ("datasets/SemEval2014/train/Laptop_Train_v2.xml", "aspect"), # join/aspect
             "test": ("datasets/SemEval2014/test/Laptops_Test_Data_phaseB.xml", "aspect")
         }
     }
