@@ -80,9 +80,9 @@ def semeval14_parser(file_path, term_type="aspect", rm_conflict_senti=True):
         text_chunks.extend(tmp_text)
         label_chunks.extend(tmp_label)
 
-        assert len(text_chunks) == len(label_chunks)
         text_out = " ".join(text_chunks)
         label_out = " ".join(label_chunks)
+        assert len(text_out.split()) == len(label_out.split())
 
         datas.append([text_out, label_out])
 
@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     file_map = {
         "restaurant": {
-            "train": ("datasets/SemEval2016/train/ABSA16_Restaurants_Train_English_SB1_v2.xml", "join"), # join/aspect
+            "train": ("datasets/SemEval2016/train/ABSA16_Restaurants_Train_English_SB1_v2.xml", "aspect"), # join/aspect
             "test": ("datasets/SemEval2016/test/EN_REST_SB1_TEST.xml.B", "aspect")
         }
     }

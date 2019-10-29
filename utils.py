@@ -17,7 +17,7 @@ def punc_seperator(text):
                 forward_idx = i+1
             else:
                 break
-        if backward_idx == 0 and forward_idx == -1:
+        if (backward_idx == 0 and forward_idx == -1) or backward_idx == forward_idx:
             return [token]
         if backward_idx != 0 and forward_idx != -1:
             return [token[:forward_idx], token[forward_idx:-backward_idx], token[-backward_idx:]]
@@ -27,6 +27,7 @@ def punc_seperator(text):
             return [token[:-backward_idx], token[-backward_idx:]]
 
     text_chunks = text.split() # [w1, w2, w3...]
+    text_chunks = [chunk.strip() for chunk in text_chunks if chunk.strip() != ""] # remove space
     text_processed_chunks = []
 
     for token in text_chunks:
@@ -37,6 +38,6 @@ def punc_seperator(text):
 
 if __name__ == "__main__":
 
-    s = ".(sledk"
+    s = ")."
 
     print(punc_seperator(s))
