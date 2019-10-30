@@ -23,11 +23,11 @@ I was visiting New York City with a friend and we discovered this really warm an
 "Will comeback for sure , wish they have it here in LA ..",O O O O O O O O O O O O O
 "Excellent food , although the interior could use some help .",O B-POS O O O B-NEG O O O O O
 "The space kind of feels like an Alice in Wonderland setting , without it trying to be that .",O B-NEG O O O O O O O O O O O O O O O O O
-"I paid just about $ 60 for a good meal meal , though :)",O O O O O O O O O B-POS B-POS O O O
+"I paid just about $ 60 for a good meal , though :)",O O O O O O O O O B-POS O O O
 Great sake !,O B-POS O
 "Reliable , Fresh Sushi",O O O B-POS
 My husband and I take out from here 3-4 times a month .,O O O O O O O O O O O O O
-The sashimi is always fresh and the rolls rolls are innovative and delicious .,O B-POS O O O O O B-POS B-POS O O O O O
+The sashimi is always fresh and the rolls are innovative and delicious .,O B-POS O O O O O B-POS O O O O O
 Have never had a problem with service save a missing rice once .,O O O O O O B-POS O O O O O O
 Delivery can be spot on or lacking depending on the weather and the day of the week .,B-NEG O O O O O O O O O O O O O O O O O
 Delivery guy sometimes get upset if you don't tip more than 10 %.,B-NEG I-NEG O O O O O O O O O O O
@@ -39,7 +39,7 @@ This place has ruined me for neighborhood sushi .,O O O O O O O B-POS O
 Not cheap but very yummy .,O O O O O O
 Love it .,O O O
 "Very , very nice",O O O O
-"The place place is a bit hidden away , but once you get there , it's all worth it .",O B-NEU B-POS O O O O O O O O O O O O O O O O O
+"The place place is a bit hidden away , but once you get there , it's all worth it .",O B-POS B-NEU O O O O O O O O O O O O O O O O O
 not only is the food,O O O O B-POS
 Loved It,O O
 My wife and I went to Water's Edge for a romantic dinner .,O O O O O O O O O O O O O
@@ -51,16 +51,16 @@ There is something about their atmosphere that makes me come back nearly every w
 "Place is open till late , no dress code .",B-POS O O O O O O O O O
 Good food : my favorite is the seafood spaghetti .,O B-POS O O O O O B-POS I-POS O
 Highly recommended !,O O O
-Excellent food food for great prices,O B-POS B-POS O O O
+Excellent food for great prices,O B-POS O O O
 My husband and I have been sold on this from the first visit .,O O O O O O O O O O O O O O
 The wait staff is very courteous and accomodating .,O B-POS I-POS O O O O O O
-"The space space is limited so be prepared to wait up to 45 minutes - 1 hour , but be richly rewarded when you savor the delicious indo-chinese food .",O B-NEU B-NEG O O O O O O O O O O O O O O O O O O O O O O O O B-POS I-POS O
+"The space space is limited so be prepared to wait up to 45 minutes - 1 hour , but be richly rewarded when you savor the delicious indo-chinese food .",O B-NEG B-NEU O O O O O O O O O O O O O O O O O O O O O O O O B-POS I-POS O
 There are no negatives to speak of .,O O O O O O O O
 the bestt !,O O O
 my favorite place lol,O O B-POS O
 i love their chicken pasta cant remember the name but is sooo good,O O O B-POS I-POS O O O O O O O O
 its alright,O O
-"im not necessarily fanatical about this place place , but it was a fun time for low pirces .",O O O O O O B-POS B-POS O O O O O O O O O O O
+"im not necessarily fanatical about this place , but it was a fun time for low pirces .",O O O O O O B-POS O O O O O O O O O O O
 "lobster was good , nothing spectacular .",B-NEU O O O O O O
 "its just a fun place to go , not a five star restaraunt .",O O O O O O O O O O O O B-NEU O
 Way below average,O O O
@@ -71,7 +71,7 @@ I love this place,O O O B-POS
 I wasn't here for the pizza so I can't comment on that yet but what I had was very good .,O O O O O O O O O O O O O O O O O O O O O
 The service was quick and friendly .,O B-POS O O O O O
 Everyone was smiling so that made me feel welcome .,O O O O O O O O O O
-I thought the restaurant restaurant was nice and clean .,O O O B-POS B-POS O O O O O
+I thought the restaurant was nice and clean .,O O O B-POS O O O O O
 I ordered the vitello alla marsala and I was pretty impressed .,O O O B-POS I-POS I-POS O O O O O O
 The veal and the mushrooms were cooked perfectly .,O B-POS O O B-POS O O O O
 The potato balls were not dry at all ... in fact it was buttery .,O B-POS I-POS O O O O O O O O O O O O
@@ -79,7 +79,7 @@ The only downside ... they only take cash which is OK if you know about it ahead
 I'll be back for sure .,O O O O O O
 WORST PLACE ON SMITH STREET IN BROOKLYN,O B-NEG O O O O O
 "Very immature bartender , didnt know how to make specific drinks , service was so slowwwww , the food was not fresh or warm , waitresses were busy flirting with men at the bar and werent very attentive to all the customers .",O O B-NEG O O O O O O O O O B-NEG O O O O O B-NEG O O O O O O B-NEG O O O O O O O O O O O O O O O O O
-I would never recommend this place place to anybody even for a casual dinner .,O O O O O B-NEG B-NEG O O O O O O O O
+I would never recommend this place to anybody even for a casual dinner .,O O O O O B-NEG O O O O O O O O
 awesome,O
 the food is always fresh ...,O B-POS O O O O
 overpriced japanese food with mediocre service,O B-NEG I-NEG O O B-NEU
@@ -101,14 +101,14 @@ Favorite Sushi in NYC,O B-POS O O
 "I have eaten at some of the 'best' sushi joints in NYC (Nobu, Bond Street , JewelBako , etc ) and Yamato is my favorite .",O O O O O O O O O O O O O O O O O O O O O O O O O O
 "An unpretentious spot in Park Slope , the sushi is consistently good , the service is pleasant , effective and unassuming .",O O B-POS O O O O O B-POS O O O O O B-POS O O O O O O O
 "In the summer months , the back garden area is really nice .",O O O O O O B-POS I-POS I-POS O O O O
-The rolls are creative and I have yet to find another sushi place that serves up more inventive yet delicious japanese food japanese food .,O B-POS O O O O O O O O O O O O O O O O O O B-POS I-POS B-POS I-POS O
+The rolls are creative and I have yet to find another sushi place that serves up more inventive yet delicious japanese food .,O B-POS O O O O O O O O O O O O O O O O O O B-POS I-POS O
 "The Dancing, White River and Millenium rolls are musts .",O B-POS I-POS I-POS I-POS I-POS I-POS O O O
 SO GOOD,O O
 I CAN EAT HERE EVERY DAY OF THE WEEK REALLY LOL LOVE THIS PLACE ...),O O O O O O O O O O O O O B-POS O
 Gross food – Wow -,O B-NEG O O O
 I can't remember the last time I had such gross food in New York .,O O O O O O O O O O B-NEG O O O O
-My quesadilla quesadilla tasted like it had been made by a three-year old with no sense of proportion or flavor .,O B-NEG B-NEG O O O O O O O O O O O O O O O O O O
-And $ 11 for a plate of bland guacamole guacamole ?,O O O O O O O O B-NEG B-NEG O
+My quesadilla tasted like it had been made by a three-year old with no sense of proportion or flavor .,O B-NEG O O O O O O O O O O O O O O O O O O
+And $ 11 for a plate of bland guacamole ?,O O O O O O O O B-NEG O
 Come on .,O O O
 "Don't get me started on the margaritas , either .",O O O O O O B-NEG O O O
 Mine tasted like the bartender had forgotten to add the tequila .,O O O O O O O O O O O O
@@ -118,12 +118,12 @@ Save your money and your time and go somewhere else .,O O O O O O O O O O O
 Great Indian Food !,O B-POS I-POS O
 This place was reccomended to me by a friend .,O O O O O O O O O O
 When I got there the place was packed but they made sure to seat me quickly .,O O O O O O O O O O O O O O O O O
-"The food was good , the place place was clean and affordable .",O B-POS O O O O B-POS B-POS O O O O O
+"The food was good , the place was clean and affordable .",O B-POS O O O O B-POS O O O O O
 I noticed alot of indian people eatting there which is a great sign for an indian place !,O O O O O O O O O O O O O O O B-POS I-POS O
 "This is one of my favorite spot , very relaxing the food is great all the times , celebrated my engagement and my wedding here , it was very well organized .",O O O O O O O O O O O B-POS O O O O O O O O O O O O O O O O O O O O
 The staff is very good .,O B-POS O O O O
 Love their drink menu .,O O B-POS I-POS O
-I highly recommend this beautiful place place .,O O O O O B-POS B-POS O
+I highly recommend this beautiful place .,O O O O O B-POS O
 Nice for one time special occasion .,O O O O O O O
 Went for Mom's birthday brunch/lunch .,O O O O O O
 They honored reservation on Sunday afternoon very well .,O O O O O O O O O
@@ -193,13 +193,13 @@ Go to son cubano in edgewater nj instead .,O O O O O O O O O
 Good Experience,O O
 "During our trip to NYC , we made reservations to dine in the pool room of the Four Seasons for their pre-theater menu ( offering a modified menu for $ 65 pp ).",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 The wine list was extensive - though the staff did not seem knowledgeable about wine pairings .,O B-POS I-POS O O O O O B-NEG O O O O O O O O
-"The bread we received was horrible - rock hard and cold - and the ""free"" appetizer of olives appetizer of olives was disappointing .",O B-NEG O O O O O O O O O O O O O B-NEG I-NEG I-NEG B-NEU I-NEU I-NEU O O O
+"The bread we received was horrible - rock hard and cold - and the ""free"" appetizer of olives appetizer of olives was disappointing .",O B-NEG O O O O O O O O O O O O O B-NEU I-NEU I-NEU B-NEG I-NEG I-NEG O O O
 "However , our main course was wonderful .",O O O B-POS I-POS O O O
 I had fish and my husband had the filet - both of which exceeded our expectations .,O O B-POS O O O O O B-POS O O O O O O O O
 "The dessert ( we had a pear torte ) was good - but , once again , the staff was unable to provide appropriate drink suggestions .",O O O O O O B-POS I-POS O O O O O O O O O O B-NEG O O O O O O O O
 When we inquired about ports - the waitress listed off several but did not know taste variations or cost .,O O O O O O O B-NEG O O O O O O O O O O O O
-Not what I would expect for the price and prestige of this location location .,O O O O O O O O O O O O B-NEU B-NEU O
-"All in all , I would return - as it was a beautiful restaurant restaurant - but I hope the staff pays more attention to the little details in the future .",O O O O O O O O O O O O O B-POS B-POS O O O O O B-NEG O O O O O O O O O O O
+Not what I would expect for the price and prestige of this location .,O O O O O O O O O O O O B-NEU O
+"All in all , I would return - as it was a beautiful restaurant - but I hope the staff pays more attention to the little details in the future .",O O O O O O O O O O O O O B-POS O O O O O B-NEG O O O O O O O O O O O
 "short and sweet – seating is great:it's romantic,cozy and private .",O O O O B-POS O O O O O O
 The boths are not as small as some of the reviews make them out to look they're perfect for 2 people .,O B-POS O O O O O O O O O O O O O O O O O O O O
 The service was extremely fast and attentive(thanks to the service button on your table ) but I barely understood 1 word when the waiter took our order .,O B-POS O O O O O O O B-POS I-POS O O O O O O O O O O O O B-NEG O O O O
@@ -233,7 +233,7 @@ Maggot in the food !,O O O B-NEG O
 I've been wanting to go to this place forever and finally got a table .,O O O O O O O O O O O O O O O
 "The menu looked great , and the waiter was very nice , but when the food came , it was average .",O B-POS O O O O O B-POS O O O O O O O B-NEU O O O O O O
 "Nevertheless , I finished my plate , and that's when I found a maggot in mushroom sauce at the bottom .",O O O O O O O O O O O O O O O B-NEG I-NEG O O O O
-"I showed it to the manager manager , and he smilingly apologized and brought us two free desserts ( but did not ask us what we wanted and so brought the last two desserts we would have asked for ).",O O O O O B-POS B-NEG O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"I showed it to the manager manager , and he smilingly apologized and brought us two free desserts ( but did not ask us what we wanted and so brought the last two desserts we would have asked for ).",O O O O O B-NEG B-POS O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "When the bill came , nothing was comped , so I told the manager very politely that we were willing to pay for the wine , but I didn't think I should have to pay for food with a maggot in it .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "Yes , I ate the food , but I certainly would not have if I had seen the maggot before eating , and I was at this point fairly sick to my stomach .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "The manager finally said he would comp the two glasses of wine ( which cost less than the food ), and made it seem like a big concession .",O B-NEG O O O O O O O O O O O O O O O O O O O O O O O O O O O
@@ -245,8 +245,8 @@ Unhygienic,O
 I do not recommend .,O O O O O
 I went there 2times .,O O O O O
 I got hair in my food 2 times of then !,O O O O O B-NEG O O O O O
-"Great place place , great value .",O B-POS B-POS O O O O
-"The food food food is flavorful , plentiful and reasonably priced .",O B-POS B-POS B-POS O O O O O O O O
+"Great place , great value .",O B-POS O O O O
+"The food is flavorful , plentiful and reasonably priced .",O B-POS O O O O O O O O
 The atmosphere is relaxed and casual .,O B-POS O O O O O
 It's a great place to order from or sit-in .,O O O B-POS O O O O O O
 Awesome,O
@@ -254,9 +254,9 @@ Awesome,O
 Sushi experience was unbelievable with my fiance .,B-POS O O O O O O O
 Try it !,O O O
 Very pleased,O O
-Good creative rolls rolls !,O O B-POS B-POS O
+Good creative rolls !,O O B-POS O
 "Yamato is an excellent place to go if youre not into sashimi , or if you have friends who doesnt like sushi much .",B-POS O O O O O O O O O O O O O O O O O O O O O O O
-"They have great rolls , the triple color and norwegetan rolls triple color and norwegetan rolls , are awesome and filling .",O O O B-POS O O B-POS I-POS I-POS I-POS I-POS B-POS I-POS I-POS I-POS I-POS O O O O O O
+"They have great rolls , the triple color and norwegetan rolls , are awesome and filling .",O O O B-POS O O B-POS I-POS I-POS I-POS I-POS O O O O O O
 "One special roll and one regular roll is enough to fill you up , but save room for dessert !",O B-POS I-POS O O B-POS I-POS O O O O O O O O O O O B-POS O
 "They have a delicious banana chocolate dessert , as well as a great green tea tempura .",O O O O B-POS I-POS I-POS O O O O O O B-POS I-POS I-POS O
 The appetizers are also delicious !,O B-POS O O O O
@@ -276,7 +276,7 @@ Still we keep going back :),O O O O O O
 I was speechless by the horrible food .,O O O O O O B-NEG O
 "I attended a holiday dinner at the restaurant , and the food was majorly disappointing .",O O O O O O O O O O O B-NEG O O O O
 "Rather than eating the meat entree being offered , I requested a vegetarian dish .",O O O O O O O O O O O O O O O
-"Rather than preparing vegetarian dish vegetarian dish , the chef presented me with a plate of steamed vegetables ( minus sauce , seasoning , or any form or aesthetic presentation ).",O O O B-NEG I-NEG B-NEG I-NEG O O B-NEG O O O O O O O O O O O O O O O O O O O O O
+"Rather than preparing vegetarian dish , the chef presented me with a plate of steamed vegetables ( minus sauce , seasoning , or any form or aesthetic presentation ).",O O O B-NEG I-NEG O O B-NEG O O O O O O O O O O O O O O O O O O O O O
 "I was so stunned , and I left the dinner hungry and majorly disappointing .",O O O O O O O O O O O O O O O
 This place survives on reputation alone .,O B-NEG O O O O O
 I will NEVER return .,O O O O O
@@ -304,14 +304,14 @@ The only thing that strikes you is the decor ?( not very pleasant ).,O O O O O O
 great food,O B-POS
 This place has great indian chinese food .,O O O O B-POS I-POS I-POS O
 The flavors are amazing and the value is phenomenal .,O O O O O O O O O O
-"Be prepared to wait , because the place place is pretty tiny .",O O O O O O O B-NEG B-NEG O O O O
+"Be prepared to wait , because the place is pretty tiny .",O O O O O O O B-NEG O O O O
 "Also , they do not take credit card so come with cash !",O O O O O O O O O O O O O
 "Even though the place is not beautiful , the food speaks for itself .",O O O B-NEG O O O O O B-POS O O O O
 "Best Indian Chinese in the city , by far !",O B-POS I-POS O O O O O O O
 AMAZING MY FAVORITE !!!,O O O O
 I have been living in NYC for bit now and I have to say I love to go out and explore the scene .,O O O O O O O O O O O O O O O O O O O O O O O O
 "I came across Village Underground by accident , now I go there all the time .",O O O B-POS I-POS O O O O O O O O O O O
-The martinis martinis are amazing and very fairly priced .,O B-POS B-POS O O O O O O O
+The martinis are amazing and very fairly priced .,O B-POS O O O O O O O
 "THE SERVICE IS AMAZING , i've had different waiters and they were all nice , which is a rare thing in NYC .",O B-POS O O O O O O B-POS O O O O O O O O O O O O O O
 "The DJ is awesome , I have been there for my birthday and a bunch of other times with friends and I keep going back .",O B-POS O O O O O O O O O O O O O O O O O O O O O O O O
 You can get a table without a reservation if you get there early I they don't make you by bottles .,O O O O O O O O O O O O O O O O O O O O O
@@ -343,7 +343,7 @@ Bison was quite excellent however .,B-POS O O O O O
 Dessert : pure disaster .,B-NEG O O O O
 Just not good at all .,O O O O O O
 Some Pineapple covered in a glaze of some kind and some pear tart thing Not impressive at all .,O O O O O O O O O O O O O O O O O O O
-"I read reviews that called the restaurant restaurant too expensive and I thought to myself , but may be it is worth it .",O O O O O O B-NEG B-NEG O O O O O O O O O O O O O O O O
+"I read reviews that called the restaurant too expensive and I thought to myself , but may be it is worth it .",O O O O O O B-NEG O O O O O O O O O O O O O O O O
 I was wrong .,O O O O
 "The Four Seasons The Four Seasons has history and it is a sort of landmark of New York City restaurants , but trust me , they will charge you through the nose just so that you can say "" I've been to the four seasons restaurant "".",B-NEU I-NEU I-NEU B-NEG I-NEG I-NEG O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "I wanted to go there to see if it was worth it and sadly , curiousity got the best of me and I paid dearly for it .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
@@ -357,7 +357,7 @@ Terrible Waste of money .. scammers,O O O O O O
 I agree that dining at Casa La Femme is like no other dining experience !,O O O O O B-NEG I-NEG I-NEG O O O O O O O
 BUT not in a good way .,O O O O O O O
 I am actually offended to have spent so much money on such a bad experience .,O O O O O O O O O O O O O O O O
-I literally just got back home after visiting Casa La Femme Casa La Femme and was so offended by my visit felt it necessary to try and warn other diners who value their money and time .,O O O O O O O O B-NEG I-NEG I-NEG B-NEG I-NEG I-NEG O O O O O O O O O O O O O O O O O O O O O O O
+I literally just got back home after visiting Casa La Femme and was so offended by my visit felt it necessary to try and warn other diners who value their money and time .,O O O O O O O O B-NEG I-NEG I-NEG O O O O O O O O O O O O O O O O O O O O O O O
 We went to celebrate two birthdays and wanted to do something special and different .,O O O O O O O O O O O O O O O
 "Our visit their to say the least , was an unpleasant and costly experience !",O O O O O O O O O O O O O O O
 And even more so unpleasant because it was so costly for such an unpleasant experience .,O O O O O O O O O O O O O O O O
@@ -366,7 +366,7 @@ Although we were told 10-15 minutes and it was more like 45 minutes .,O O O O O 
 We were ushered to the bar to wait momentarily and upon arrival were so excited .,O O O O O O O O O O O O O O O O
 The place is beautiful !,O B-POS O O O
 The hostess was very pleasant .,O B-POS O O O O
-"However , our $ 14 drinks drinks were were horrible !",O O O O O B-NEG B-NEG O O O O
+"However , our $ 14 drinks were were horrible !",O O O O O B-NEG O O O O
 "Once we finally got a table , despite indicating we wanted an alla carte menu we were pushed into a table that was only price fixed !",O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "Since we were already waiting so long , we felt we had no other choice but to accept it .",O O O O O O O O O O O O O O O O O O O O
 Our experience did not ever get any better .,O O O O O O O O O
@@ -376,14 +376,14 @@ After the 4th time i asked again and the waiter than said after our dinner .,O O
 We asked for beverages and never received them .,O O O O O O O O O
 We asked for sides which the waiter than admitted that he forgot to put in that part of our order .,O O O O O O B-NEG O O O O O O O O O O O O O O
 My chicken was inedible as there were so many fatty lumps which i had to keep spitting out into my napkin .,O B-NEG O O O O O O O O O O O O O O O O O O O O
-I would not expect this for a $ 55 dinner dinner .,O O O O O O O O O B-NEG B-NEG O
+I would not expect this for a $ 55 dinner .,O O O O O O O O O B-NEG O
 By the time we finished our dinner we still had not received one beverage NOR hooka !,O O O O O O O O O O O O O O O O O
 What we did do was waste 3 hours being trapped in a table waiting and waiting for food and drinks and hooka .. some of which we never received !,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 The only beverage we did receive was water in dirty glasses !,O O O O O O O O O O O O
 To top it all off .. the main reason we came to your restaurant was for the belly dancers and missed the first show as we were not seated yet and the 2nd belly dancer only danced at two tables in the back of the restaurant and never made it around to the other half of the restaurant .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "By the time we left our wallets were empy and so were our stomachs AND we missed the show we were supposed to see following our dinner , which would have been acceptable if we got to enjoy the experience of good food and belly dancers !",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-NEG O O O O
 If it seemed possible to do so while there I would have fought my bill since my dinner portion of my meal was inedible !,O O O O O O O O O O O O O O O O O O O O O B-NEG O O O
-"I have never left a restaurant restaurant feeling as if i was abused , and wasted my hard earned money .",O O O O O B-NEG B-NEG O O O O O O O O O O O O O O
+"I have never left a restaurant feeling as if i was abused , and wasted my hard earned money .",O O O O O B-NEG O O O O O O O O O O O O O O
 MY husbands birthday and my sons was not as it was intended ... and we drove two hours to spend too much money to be treated terribly !,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 I wish I COULD be refunded !,O O O O O O O
 Don't go with a larger group than 4 !,O O O O O O O O O
@@ -394,7 +394,7 @@ Five of us walked in at approximately 6:20 on a Thursday evening .,O O O O O O O
 The menu is fairly simple without much descriptions .,O B-NEU O O O O O O O
 "There was no tap beer that evening , which was a disappointment .",O O O O B-NEG O O O O O O O O
 "Not much of a selection of bottled beer either , we went with Brahma .",O O O O B-NEG I-NEG I-NEG I-NEG O O O O O O O
-The appetizers we ordered were served quickly - an order of fried oysters and clams fried oysters and clams were delicious but a tiny portion ( maybe 3 of each ).,O O O O O O O O O O O B-POS I-POS I-POS I-POS B-NEG I-NEG I-NEG I-NEG O O O O O O O O O O O O
+The appetizers we ordered were served quickly - an order of fried oysters and clams fried oysters and clams were delicious but a tiny portion ( maybe 3 of each ).,O O O O O O O O O O O B-NEG I-NEG I-NEG I-NEG B-POS I-POS I-POS I-POS O O O O O O O O O O O O
 "The lobster knuckles lobster knuckles ( special of the day ) were ok , but pretty tasteless .",O B-NEU I-NEU B-NEG I-NEG O O O O O O O O O O O O O
 "I believe there were 2 shrimp in the ""salt encrusted shrimp"" appetizer .",O O O O O O O O B-NEG I-NEG I-NEG I-NEG O
 After we ate our appetizers ( which took all of 8 minutes ) we ordered another round of Brahma's - and tried to stall a little as we waited for our sixth dinner member .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
@@ -404,16 +404,16 @@ We replied that we would like to wait 5 more minutes if that was okay .,O O O O 
 "We called the other person who was very close by , and she told us to order for her , so we did .",O O O O O O O O O O O O O O O O O O O O O O O O
 The food arrived in about 15 minutes .,O O O O O O O O
 I had the Thai style Fried Sea Bass ... which was very good .,O O O B-POS I-POS I-POS I-POS I-POS O O O O O O
-"Everyone seemed generally happy with their food , except my brother who had the grilled Mahi Mahi grilled Mahi Mahi , seemingly drenched in Grapfruit Juice !",O O O O O O B-POS O O O O O O O B-NEG I-NEG I-NEG B-NEG I-NEG I-NEG O O O O O O O
+"Everyone seemed generally happy with their food , except my brother who had the grilled Mahi Mahi , seemingly drenched in Grapfruit Juice !",O O O O O O B-POS O O O O O O O B-NEG I-NEG I-NEG O O O O O O O
 I heard the lobster roll was excellent .,O O O B-POS I-POS O O O
 "They seemed to continue to rush us along , taking plates without asking if we were done ( my sister still had her fork in hand ).",O O O O O O O O O O O O O O O O O O O O O O O O O O O
-"All in all the food food was good - a little on the expensive side , but fresh .",O O O O B-POS B-NEG O O O O O O O O O O O O O
+"All in all the food food was good - a little on the expensive side , but fresh .",O O O O B-NEG B-POS O O O O O O O O O O O O O
 "Service not the friendliest to our "" large party ""!",B-NEG O O O O O O O O O
 Probably would not go back here .,O O O O O O O
 Great Indian food,O B-POS I-POS
 "I lived on 50th st , and wanted Indian one day so decided to check this place out .",O O O O O O O O O O O O O O O O O O O
 "Food was amazing - I love Indian food and eat it quite regularly , but I can say this is one of the best I've had .",B-POS O O O O O O O O O O O O O O O O O O O O O O O O O O
-"Very "" normal Indian food Indian food "", but done really well .",O O O B-NEU I-NEU B-POS I-POS O O O O O O
+"Very "" normal Indian food Indian food "", but done really well .",O O O B-POS I-POS B-NEU I-NEU O O O O O O
 "I have it a 4 instead of 5 because of the price ( just chicken tikka masala - no bread of rice - is $ 25 ), which I would expect at a upscale Indian restaurant but this place place doesn't have an upscale feel .",O O O O O O O O O O O O O O B-NEG I-NEG I-NEG O O O O O O O O O O O O O O O O O O O O O B-POS B-NEG O O O O B-NEG O
 "Also , waiters try to push more food on you , like suggest things as if they are complimentary when they actually cost $.",O O B-NEG O O O O O O O O O O O O O O O O O O O O O
 I don't appreciate places or people that try to drive up the bill without the patron's knowledge so that was a huge turnoff ( more than the price ).,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
@@ -421,7 +421,7 @@ I don't appreciate places or people that try to drive up the bill without the pa
 One of the BEST,O O O O
 "Bukhara Grill , the tagline says it all .. "" INDIAN SPICE RAVE """,B-POS I-POS O O O O O O O O O O O O
 My GF and I dine at Bukhara often as she lives near it .,O O O O O O O O O O O O O O
-The lunch buffet lunch buffet is expensive but is deff worth it .,O B-NEG I-NEG B-POS I-POS O O O O O O O O
+The lunch buffet lunch buffet is expensive but is deff worth it .,O B-POS I-POS B-NEG I-NEG O O O O O O O O
 We go often for lunch and the place is packed .,O O O O O O O O O O O
 We have gone for dinner only a few times but the same great quality and service is given .,O O O O B-POS O O O O O O O O O O B-POS O O O
 Bukhara is on my top 5 Indian places in NYC,B-POS O O O O O O O O O
@@ -441,7 +441,7 @@ Less than three minutes passed before I found myself doubled over the toilet .,O
 We know the difference between and oyster and bad fish .,O O O O O O O O O O O
 "It wasn't as if this restaurant had any major bragging points before hand , but now it's simply repulsive .",O O O O O B-NEG O O O O O O O O O O O O O O
 Eat at your own risk .,O O O O O O
-Gorgeous place place ideal for a romantic dinner,O B-POS B-POS O O O O O
+Gorgeous place ideal for a romantic dinner,O B-POS O O O O O
 I took my boyfriend for a dinner on saturday night .,O O O O O O O O O O O
 I book a gorgeous white organza tent which included a four course prix fix menu which we enjoyed a lot .,O O O O B-POS I-POS I-POS O O O B-POS I-POS I-POS I-POS I-POS O O O O O O
 The service was spectacular as the waiter knew everything about the menu and his recommendations were amazing !,O B-POS O O O O B-POS O O O O O O O O O O O
@@ -455,7 +455,7 @@ Too bad I had paid an extra $ 2 for the stone bowl .,O O O O O O O O O O O B-NEG
 The nakgi-bokum was horrible .,O B-NEG O O O
 Easily the worst stir-fried squid I've ever tasted .,O O O B-NEG I-NEG O O O O
 The sauce tasted more like Chinese fast food than decent Korean .,O B-NEG O O O O O O O O O O
-"The side dishes side dishes were passable , and I did get a refill upon request .",O B-NEU I-NEU B-POS I-POS O O O O O O O O O O O O
+"The side dishes side dishes were passable , and I did get a refill upon request .",O B-POS I-POS B-NEU I-NEU O O O O O O O O O O O O
 The real problem I had with this place was the complete lack of service .,O O O O O O O O O O O O O B-NEG O
 I mentioned the squid dish wasn't very good when the waitress visited .,O O O O O O O O O O O O O
 She just nodded and walked off .,O O O O O O O
@@ -478,11 +478,11 @@ A quintessential slice of NYC pizza .,O O B-NEU I-NEU I-NEU I-NEU O
 "The crust has a great bite and a good chew , the sauce is light with a nice acidity to it , the salt from the cheese is great , really heightens the flavor of all the other components .",O B-POS O O O O O O O O O O B-POS O O O O O O O O O O O O O B-POS O O O O O O O O O O O O O
 "Personally I like the margherita pizza better , but they are all good .",O O O O B-POS I-POS O O O O O O O O
 Possibly the Most Romantic Restaurant in the City,O O O O B-POS O O O
-"This is undoubtedly my favorite modern Japanese brasserie modern Japanese brasserie ( that don’t serve sushi ), and in my opinion , one of the most romantic restaurants in the city !",O O O O O B-POS I-POS I-POS B-POS I-POS I-POS O O O O O O O O O O O O O O O O O O O O O
+"This is undoubtedly my favorite modern Japanese brasserie ( that don’t serve sushi ), and in my opinion , one of the most romantic restaurants in the city !",O O O O O B-POS I-POS I-POS O O O O O O O O O O O O O O O O O O O O O
 "Not only is it an adventure getting to this somewhat hidden spot , once you enter the unmarked wooden doors , the zen and intimate décor will make you feel like you’re no longer in the city .",O O O O O O O O O O O B-NEU O O O O O B-POS I-POS I-POS O O O O O B-POS O O O O O O O O O O O O
 "If you’re planning to come here , make sure that your date is someone whom you really like since you’ll be ushered to private booths where there will be no people or food watching ( choose the ones on the ground level that have glass ceilings so you may see the stars in the sky !).",O O O O O O O O O O O O O O O O O O O O O O O B-POS I-POS O O O O O O O O O O O O O O O O O O O B-POS I-POS O O O O O O O O O O
 It’s just you and your date and an occasional cute ‘excuse me’ before the waiter opens the little curtain to your booth !,O O O O O O O O O O O O O O B-POS O O O O O O O O
-"My party had the BBE $29 fixe prix menu BBE $29 fixe prix menu , which was such a wonderful deal since it also came with a flight of sake !",O O O O B-POS I-POS I-POS I-POS I-POS B-POS I-POS I-POS I-POS I-POS O O O O O O O O O O O O O O O O O
+"My party had the BBE $29 fixe prix menu , which was such a wonderful deal since it also came with a flight of sake !",O O O O B-POS I-POS I-POS I-POS I-POS O O O O O O O O O O O O O O O O O
 I never used to be a fan of sakes but am lately experimenting with it a lot more and am acquiring a better taste of it .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
 We started off with a delightful sashimi amuse bouche .,O O O O O O B-POS I-POS I-POS O
 Our first course was Tuna Sashimi with Green Yuzu Sauce .,O O O O O O O O O O O
@@ -490,8 +490,8 @@ Our first course was Tuna Sashimi with Green Yuzu Sauce .,O O O O O O O O O O O
 The entrees were served with miso soup and rice .,O B-NEU O O O O O O O O
 The sake’s complimented the courses very well and is successfully easing me into the sake world .,O B-POS O O O O O O O O O O O O O O O
 "For desserts , we tried the frozen black sesame mousse ( interesting but not extraordinary ) and matcha (powdered green tea) and blueberry cheesecake , which was phenomenal .",O O O O O O B-NEU I-NEU I-NEU I-NEU O O O O O O O B-POS I-POS I-POS I-POS I-POS I-POS I-POS O O O O O
-"Maybe it was the great company ( I had friends visiting from Philly – yes , it was not a date this time ) or the super reasonable price point , but I just can’t say enough good things about this brasserie brasserie .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-POS B-POS O
-"I don’t usually visit the same establishment more than once , what more twice , but I’ll come to Zenkichi Zenkichi anytime for a quiet , unhurried and memorable dinner .",O O O O O O O O O O O O O O O O O O O B-POS B-POS O O O O O O O O O O
+"Maybe it was the great company ( I had friends visiting from Philly – yes , it was not a date this time ) or the super reasonable price point , but I just can’t say enough good things about this brasserie .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-POS O
+"I don’t usually visit the same establishment more than once , what more twice , but I’ll come to Zenkichi anytime for a quiet , unhurried and memorable dinner .",O O O O O O O O O O O O O O O O O O O B-POS O O O O O O O O O O
 Terrible would be a compliment !,O O O O O O
 "The service leaves much to be desired , from feeling like you are rushed the place your order , to being ignored the rest of the night .",O B-NEG O O O O O O O O O O O O O O O O O O O O O O O O O O
 "We were 10 people celebrtating a birthday , we sat in the tent .",O O O O O O O O O O O O O O
@@ -515,7 +515,7 @@ The food tasted very good .,O B-POS O O O O
 The family seafood entree was very good .,O B-POS I-POS I-POS O O O O
 The main entree was also very good .,O B-POS I-POS O O O O O
 We order a bit of everything on the menu .,O O O O O O O O O O
-"Price is high but the food food is good , so I would come back again .",O O O O O B-POS B-NEG O O O O O O O O O O
+"Price is high but the food food is good , so I would come back again .",O O O O O B-NEG B-POS O O O O O O O O O O
 This place doesn't make any sense,O B-NEG O O O O
 Just want to warn you all - don't waste your time and money .,O O O O O O O O O O O O O O
 "This place has totally weird decor , stairs going up with mirrored walls - I am surprised how no one yet broke their head or fall off the stairs - mirrored walls make you dizzy and delusional ...",O O O O O B-NEG O O O O O B-NEG I-NEG O O O O O O O O O O O O O O O O O O O O O O O O O
@@ -526,7 +526,7 @@ Go to japanese sushi place or Spanish tapas place - this creation in Williamsbur
 Good Food,O B-POS
 I went here with my boyfriend for our anniversary .,O O O O O O O O O O
 "The food was great and tasty , but the sitting space was too small , I don't like being cramp in a corner .",O B-POS O O O O O O O B-NEG I-NEG O O O O O O O O O O O O O
-Over all it was a very nice romantic place place .,O O O O O O O O B-POS B-POS O
+Over all it was a very nice romantic place .,O O O O O O O O B-POS O
 I would recommend to ask for a bigger sitting area when you make a reservation ( if possible ),O O O O O O O O O O O O O O O O O O O
 Loved it,O O
 A coworker and I tried Pacifico after work a few Fridays and loved it .,O O O O O B-POS O O O O O O O O O
@@ -557,7 +557,7 @@ Everything was going good until we got our meals .,O O O O O O O O B-NEG O
 I took one look at the chicken and I was appalled .,O O O O O O B-NEG O O O O O
 "It was served with skin , over a bed of extremely undercooked spinach and mashed potatoes .",O O O O O O O O O O O O B-NEG O O O O
 "My boyfriend asked me if I wanted to switch and eat his salmon instead , while he de-skinned the chicken so that I could enjoy the white meat .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
-"I took one bite from the $ 24 salmon salmon , and I have never , in the 17 years I have been going to restaurants tasted salmon as fishy , as dry , and as bland as the one in Flatbush Farms .",O O O O O O O O B-NEG B-NEG O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"I took one bite from the $ 24 salmon , and I have never , in the 17 years I have been going to restaurants tasted salmon as fishy , as dry , and as bland as the one in Flatbush Farms .",O O O O O O O O B-NEG O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "At this point , the waitress comes over and asks us if everything was okay , I was literally so shocked that I was speechless and didn't say anything , and guess what , the waitress WALKED away .",O O O O O B-NEG O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "So , I switch with my boyfriend again to see if maybe I could stomach the meat and spinach again , but the spinach was so undercooked that I just could not bite through it .",O O O O O O O O O O O O O O O O O O O O O O O B-NEG O O O O O O O O O O O O
 I couldn't even enjoy the mashed potatoes because it was hidden completely under the chicken and spinach .,O O O O O O O O O O O O O O O O O O
@@ -591,7 +591,7 @@ I live in the West Village and I've been to a lot of restaurants .,O O O O O O O
 "However , most of them are at least prompt and pleasant .",O O O O O O O O O O O O
 This place ... god where do i begin .,O B-NEG O O O O O O O
 It is quite a spectacular scene i'll give them that .,O O O O O B-POS O O O O O
-The decor however seems to be the distraction so you won't notice that you just payed 300 bucks for some cold eggplant eggplant that took 2 FRICKIN HOURS TO COME !!!!,O B-NEU O O O O O O O O O O O O O O O O O O O B-NEG B-NEG O O O O O O O O
+The decor however seems to be the distraction so you won't notice that you just payed 300 bucks for some cold eggplant that took 2 FRICKIN HOURS TO COME !!!!,O B-NEU O O O O O O O O O O O O O O O O O O O B-NEG O O O O O O O O
 "How this place survives the competitive west village market in this economy , or any other for that matter , is beyond me .",O O B-NEG O O O O O O O O O O O O O O O O O O O O O
 Great Hot Dogs !,O B-POS I-POS O
 I've made the trip out here a few times with a friend who lives nearby ( I live on UWS ).,O O O O O O O O O O O O O O O O O O O O O
@@ -631,7 +631,7 @@ Everyone must come here at least once .,O O O O O O O O
 Highly recommend it !,O O O O
 Taking Hot Dogs to the next level,O B-POS I-POS O O O O
 "At first glance this place seems a bit pricey for a hot dog joint , but at Bark you don't just get your average hot dog .",O O O O O O O O O O O O O O O O O B-NEG O O O O O O B-POS I-POS O
-Here the hot dog hot dog is elevated to the level of a real entree with numerous variations available .,O O B-POS I-POS B-POS I-POS O O O O O O O O O O O O O O
+Here the hot dog is elevated to the level of a real entree with numerous variations available .,O O B-POS I-POS O O O O O O O O O O O O O O
 Great Atmosphere,O B-POS
 Went to this place this place on a real cold night and needed a quick meal .,O O O O O O O O O O O O O O O O O
 "I highly recommend the fish tacos , everything else was ok .",O O O O B-POS I-POS O O O O O O
@@ -655,8 +655,8 @@ What a hassle !,O O O O
 Expensive,O
 I went there after hearing how great it was .,O O O O O O O O O O
 Wow .,O O
-"The bread was stale , the salad salad was overpriced and empty .",O B-NEG O O O O B-NEG B-NEG O O O O O
-"The pasta pasta pasta was well cooked , didn't have enough sauce though or flavor .",O B-POS B-NEG B-NEG O O O O O O O O O O O O
+"The bread was stale , the salad was overpriced and empty .",O B-NEG O O O O B-NEG O O O O O
+"The pasta pasta was well cooked , didn't have enough sauce though or flavor .",O B-POS B-NEG O O O O O O O O O O O O
 I though it was expensive and I prefer Bella Via just blocks away by far .,O O O O O O O O O O O O O O O O
 So rude !!!,O O O
 I went with JWILS .,O O O O O

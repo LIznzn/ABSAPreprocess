@@ -1,6 +1,6 @@
 Room Was Acceptable,B-NEU O O
 The room was nice and the furnishings were comfortable .,O B-POS O O O O B-POS O O O
-The food food from the restaurant was very good but pricey which was the standard for everything in this hotel .,O B-POS B-NEG O O O O O O O O O O O O O O O O B-NEG O
+The food food from the restaurant was very good but pricey which was the standard for everything in this hotel .,O B-NEG B-POS O O O O O O O O O O O O O O O O B-NEG O
 The internet access from the room was $ 9.95 for a 24 hour period .,O B-NEG I-NEG O O O O O O O O O O O O
 To check in for my flight using the business center cost me $ 4.59 which included three minutes use of the internet and printing seven pages for my boarding pass .,O O O O O O O O B-NEG I-NEG O O O O O O O O O O O O O O O O O O O O O
 I liked the hotel with the exception of being charged for things other hotels provide free .,O O O O O O O O O O O O O O O O O
@@ -9,17 +9,17 @@ Great stay !,O O O
 I booked here as I had a conference to attend at this hotel for 3 days .,O O O O O O O O O O O O O O O O O
 What a wonderful choice .,O O O O O
 Check in was fast and courteous .,B-POS I-POS O O O O O
-"Rooms Rooms Rooms were clean , spacious and comforatable .",B-POS B-POS B-POS O O O O O O O
+"Rooms were clean , spacious and comforatable .",B-POS O O O O O O O
 "Food was outstanding , for both the conference and on my own .",B-POS O O O O O O O O O O O O
 Pool was refreshing on the hot days .,B-POS O O O O O O O
-Overall for the price of this hotel hotel it cannot be beat !,O O O O O O B-POS B-POS O O O O O
+Overall for the price of this hotel it cannot be beat !,O O O O O O B-POS O O O O O
 I will definitely stay here again conference or not .,O O O O O O O O O O
 Good Business Hotel,O O B-POS
 Very nice hotel for business travelers - very few kids .,O O B-POS O O O O O O O O
 Great rooms with very comfortable beds .,O B-POS O O O B-POS O
 "Big pool area , very good fitness center - nice lobby and common areas .",O B-POS I-POS O O O B-POS I-POS O O B-POS O B-POS I-POS O
 I had excellent shuttle service .,O O O B-POS I-POS O
-The Sports Bar had good food food with very reasonable prices .,O O O O O B-POS B-POS O O O O O
+The Sports Bar had good food with very reasonable prices .,O O O O O B-POS O O O O O
 The only downside was a per minute charge to use the business center computers .,O O O O O O O O O O O B-NEG I-NEG I-NEG O
 Perfectly Close to the Airport,O O O O O
 I booked this because of it's proximity to the airport for our departure .,O O O O O O O O O O O O O O
@@ -52,7 +52,7 @@ Overall service was great and the staff as a whole were very courteous and helpf
 Not bad for one night,O O O O O
 Stayed on a Sunday night .,O O O O O O
 Front desk staff were friendly and helpful both with early check-in and an early check-out .,B-POS I-POS I-POS O O O O O O O O O O O O O
-"Room Room Room was large and spacious , but rather bland .",B-POS B-POS B-NEG O O O O O O O O O
+"Room Room was large and spacious , but rather bland .",B-NEG B-POS O O O O O O O O O
 "Excellent for a business traveler , or for a stayover with early departure to Phoenix Sky Harbor Airport , took 8 minutes to get to the airport via 10 freeway .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Ideal location .,O B-POS O
 Very affordable rate at low $50s.,O O O O O O
@@ -60,17 +60,17 @@ Very affordable rate at low $50s.,O O O O O O
 Well below average,O O O
 I was looking for an above-average traveler's hotel for a one-night stay .,O O O O O O O O O O O O O
 "Unfortunately , this is below average .",O O O O O O O
-"Rooms Rooms are large but very plain , with furnishings and fixtures as cheap as possible .",B-POS B-NEG O O O O O O O B-NEG O B-NEG O O O O O
+"Rooms Rooms are large but very plain , with furnishings and fixtures as cheap as possible .",B-NEG B-POS O O O O O O O B-NEG O B-NEG O O O O O
 The hotel shows its age and badly needs refurbishing .,O B-NEG O O O O O O O O
 Bathroom sink was on a slight slant because it was pulling out of the wall .,B-NEG I-NEG O O O O O O O O O O O O O O
 Nothing is especially terrible or unacceptable about this hotel .,O O O O O O O O B-NEU O
 It is just subpar .,O O O O O
 Don't do it !!,O O O O
-"This place place place is run down , dirty and loud .",O B-NEG B-NEG B-NEG O O O O O O O O
+"This place is run down , dirty and loud .",O B-NEG O O O O O O O O
 The pictures they provide on the web do not tell the story so don't be fooled .,O O O O O O O O O O O O O O O O O
 Great Restaurant,O B-POS
 This property has really improved since our last stay .,O B-POS O O O O O O O O
-"Room Room Room was cool , clean and comfy .",B-POS B-POS B-POS O O O O O O O
+"Room was cool , clean and comfy .",B-POS O O O O O O O
 The restaurant downstairs is the best kept secret in the area !,O B-POS O O O O O O O O O O
 The food and service was outstanding ( try the seafood platter ).,O B-POS O B-POS O O O O O B-POS I-POS O
 Staff was courteous and efficient .,B-POS O O O O O
@@ -83,7 +83,7 @@ Breakfast is fit for a king .,B-POS O O O O O O
 "Plus , the staff at the front desk are always courteous and friendly .",O O O B-POS I-POS I-POS I-POS I-POS O O O O O O
 "Though the bathrooms are a bit old , the beds are still cozy .",O O B-NEG O O O O O O B-POS O O O O
 And the hotel is right in the middle of everywhere .,O O B-POS O O O O O O O O
-Above average hotel hotel for great price !,O O B-POS B-POS O O O O
+Above average hotel for great price !,O O B-POS O O O O
 Got a great price of $ 64 per night .,O O O O O O O O O O
 "The room was perfect for me , the bed was one of the most comfortable I've ever had in a hotel .",O B-POS O O O O O O B-POS O O O O O O O O O O O O O
 Five fluffy pillows - no slabs of foam rubber concrete that most hotels provide - and a snow white down comforter .,O O O O O O O O O O O O O O O O O O O O O O
@@ -93,7 +93,7 @@ Close to Scottsdale and the University .,O O O O O O O
 I will never diss Paris Hilton again !,O O O O O O O O
 Price was right,O O O
 Pleasantly surprised at $ 69 night .,O O O O O O O
-"Front desk was not helpful , but who cares...for $ 69 you get a clean , fairly-large room room room , central air , refrig/micro , free ( but sparse ) breakfast buffet breakfast buffet .",B-NEG I-NEG O O O O O O O O O O O O O O O B-POS B-POS B-POS O O O O O O O O O O O B-POS I-POS B-NEG I-NEG O
+"Front desk was not helpful , but who cares...for $ 69 you get a clean , fairly-large room , central air , refrig/micro , free ( but sparse ) breakfast buffet breakfast buffet .",B-NEG I-NEG O O O O O O O O O O O O O O O B-POS O O O O O O O O O O O B-NEG I-NEG B-POS I-POS O
 Stayed there because it was near Banner Hospital .,O O O O O O O O O
 Friendly Staff,O B-POS
 We stayed here at the beginning and end of a trip to Arizona so we were here during two differernt weekends .,O O O O O O O O O O O O O O O O O O O O O O
@@ -101,9 +101,9 @@ The staff was extremely helpful and friendly .,O B-POS O O O O O O
 I would say they are the best part of the hotel !,O O O O O O O O O O O O
 "An elevator was broken during our last stay and it was most annoying , but did not greatly impact the overall experience .",O B-NEG O O O O O O O O O O O O O O O O O O O O O
 "We found the place quiet , the complimentary breakfast a notch above some others at similar chain hotels , and the parking adequate .",O O O O O O O O O O O O O O O O O O O O O O O O
-All in all it is a nice and affordable spot spot spot for sightseeing in the area .,O O O O O O O O O B-POS B-POS B-POS O O O O O O
+All in all it is a nice and affordable spot for sightseeing in the area .,O O O O O O O O O B-POS O O O O O O
 Administrative Issues,O O
-The Best Western Executive Park Hotel Best Western Executive Park Hotel is an average place to stay ( though a bit far from downtown ) with a substandard management team .,O B-NEU I-NEU I-NEU I-NEU I-NEU B-NEG I-NEG I-NEG I-NEG I-NEG O O O O O O O O O O O O O O O O O B-NEG I-NEG O
+The Best Western Executive Park Hotel Best Western Executive Park Hotel is an average place to stay ( though a bit far from downtown ) with a substandard management team .,O B-NEG I-NEG I-NEG I-NEG I-NEG B-NEU I-NEU I-NEU I-NEU I-NEU O O O O O O O O O O O O O O O O O B-NEG I-NEG O
 I've tried to obtain a receipt for my stay to replace one I lost and have been ignored .,O O O O O O O O O O O O O O O O O O O
 There's never anyone to talk to from management and phone calls/e mails receive no response .,O O O O O O O B-NEG O O O O O O O O
 It's not a recipe for another stay .,O O O O O O O O
@@ -112,15 +112,15 @@ The desk person was in a rude mood .,O B-NEG I-NEG O O O O O O
 There was construction being done on the street in front of the hotel ; which made it very difficult driving around .,O O O O O O O O O O O O O O O O O O O O O O
 The air conditioner was very loud .,O B-NEG I-NEG O O O O
 Nothing told us that there was a free breakfast - the restaurant looked like it was closed .,O O O O O O O O O O O B-NEG O O O O O O
-All in all the price was way too high for such a poor accomodations accomodations .,O O O O O O O O O O O O O B-NEG B-NEG O
+All in all the price was way too high for such a poor accomodations .,O O O O O O O O O O O O O B-NEG O
 Extremely reasonable for the price paid .,O O O O O O O
 Excellent service .,O B-POS O
 "I was there 3 nights for a conference and am giving it 5 stars , as it was quite reasonably priced for what we received .",O O O O O O O O O O O O O O O O O O O O O O O O O O
 The staff was friendly overall .,O B-POS O O O O
 "Of course , it's not the Four Seasons , but the stay was pleasant ....",O O O O O O O O O O O O O O O
 Airport shuttle service was convenient as I chose not to rent a car during this trip .,B-POS I-POS I-POS O O O O O O O O O O O O O O
-"No complaints about the room room , pretty clean .",O O O O B-POS B-POS O O O O
-I went to the lunch buffet lunch buffet twice and had a nice meal and again at very reasonable price .,O O O O B-POS I-POS B-POS I-POS O O O O O O O O O O O O O
+"No complaints about the room , pretty clean .",O O O O B-POS O O O O
+I went to the lunch buffet twice and had a nice meal and again at very reasonable price .,O O O O B-POS I-POS O O O O O O O O O O O O O
 There was a few restaurants within walking distance to eat at as well .,O O O O O O O O O O O O O O
 The conference/banquet room was great .,O B-POS I-POS O O O
 "Very accomodating , good acoustics , clean .",O O O O O O O O
@@ -128,18 +128,18 @@ The conference/banquet room was great .,O B-POS I-POS O O O
 "Nice hotel , nice location for the valley",O B-POS O O B-POS O O O
 I stayed here for spring training this last weekend .,O O O O O O O O O O
 I got a great deal of 120 USD for 2 nights from priceline .,O O O O O O O O O O O O O O
-"I really liked the hotel hotel , it was very clean , the staff were fantastic and the rooms were great .",O O O O B-POS B-POS O O O O O O O B-POS O O O O B-POS O O O
+"I really liked the hotel , it was very clean , the staff were fantastic and the rooms were great .",O O O O B-POS O O O O O O O B-POS O O O O B-POS O O O
 I cant complain about this hotel stay .,O O O O O B-POS O O
 the location is in the central valley so getting to anywhere is easy with the easy access to the local freeways .,O B-POS O O O O O O O O O O O O O O O O O O O O
-"the only drawback was that the pool area pool pool area this time of year didnt seem to get much sun during the day , but the water is heated so it didnt matter too much .",O O O O O O B-NEG I-NEG B-POS B-POS O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the only drawback was that the pool area pool area this time of year didnt seem to get much sun during the day , but the water is heated so it didnt matter too much .",O O O O O O B-NEG I-NEG B-POS O O O O O O O O O O O O O O O O O O O O O O O O O O O
 I would absolutely stay here again !!,O O O O O O O
 "I didn't expect much , but ...",O O O O O O O
 I was pleasantly surprised .,O O O O O
 My flight was delayed so I was put up in this hotel .,O O O O O O O O O O O O O
-"I expected it to be a dingy motel , but to my surprise , the rooms rooms rooms were clean and even a little spacious .",O O O O O O O O O O O O O O O B-POS B-POS B-POS O O O O O O O O
+"I expected it to be a dingy motel , but to my surprise , the rooms were clean and even a little spacious .",O O O O O O O O O O O O O O O B-POS O O O O O O O O
 "Obviously it wasn't the Ritz Carlton , but I can't say how relieving it is to come to a clean , comfortable room after a ten hour stay in an airport terminal .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 The continental breakfast was excellent .,O B-POS I-POS O O O
-"If all you want is a clean place place place to stay without the frills , and especially if you're a business traveler , stay here .",O O O O O O O B-POS B-NEU B-POS O O O O O O O O O O O O O O O O O
+"If all you want is a clean place place to stay without the frills , and especially if you're a business traveler , stay here .",O O O O O O O B-NEU B-POS O O O O O O O O O O O O O O O O O
 They seem to have businesspeople in mind .,O O O O O O O O
 Loved this hotel overall,O O B-POS O
 We loved this hotel .,O O O B-POS O
@@ -147,30 +147,30 @@ We stayed there the day we flew in and then the night before we flew out .,O O O
 It was close to the airport .,O O O O O O O
 "The hotel staff was very friendly , the rooms were very clean , both times .",O B-POS I-POS O O O O O B-POS O O O O O O O
 The rooms were quiet .,O B-POS O O O
-"The pool pool pool was great and quiet both times , loved the lighted palm trees at night .",O B-POS B-POS B-POS O O O O O O O O O O O O O O O
+"The pool was great and quiet both times , loved the lighted palm trees at night .",O B-POS O O O O O O O O O O O O O O O
 "The breakfast buffet was unbelievable , everything you could imagine and a wonderful lady taking care of it .",O B-POS I-POS O O O O O O O O O O B-POS O O O O O
 The 2nd night we stayed there we had a king jacuzzi suite .,O O O O O O O O O O O O O
-"Awesome suite suite , 2 bathrooms , sinks and showers seperated by french doors .",O B-POS B-POS O O O O O O O O O O O O
+"Awesome suite , 2 bathrooms , sinks and showers seperated by french doors .",O B-POS O O O O O O O O O O O O
 Also 2 flat sceen tvs and lots of space in each room .,O O O O O O O O O O O B-POS O
 The only complaint I had is that our suite smelled like smoke and it was a non smoking suite .,O O O O O O O O B-NEG O O O O O O O O O O O
 We turned on both air conditioners to get rid of the smell and it wouldn't go away .,O O O O O O O O O O O O O O O O O O
-"I would highly recommend the hotel hotel , great location , great service , good value .",O O O O O B-POS B-POS O O B-POS O O B-POS O O O O
-Convienient Comfortable business travel Hotel Hotel,O O O O B-POS B-POS
+"I would highly recommend the hotel , great location , great service , good value .",O O O O O B-POS O O B-POS O O B-POS O O O O
+Convienient Comfortable business travel Hotel,O O O O B-POS
 This was my third stay in two months and I have noticed a continuing trend of upgrades and service .,O O O O O O O O O O O O O O O O O O B-POS O
 Understand the property is under new management and it really shows .,O O B-POS O O O O O O O O O
 Prices are competitive especially against the downtown megaprops who charge you for standing still in one spot too long .,O O O O O O O O O O O O O O O O O O O O
 Nice little bar and restaurant on site and easy walking distance to trendy bistros ( Portland's a really nice hip restaurant is immediately next door .),O O O O O O O O O O O O O O O O O O O O O O O O O O
 Recommend this highly for the seasoned Pheonix road warrior or warriorette .,O O O O O O O O O O O O
-"Clean , decent hotel hotel",O O O B-POS B-NEU
+"Clean , decent hotel hotel",O O O B-NEU B-POS
 Stayed at this hotel 1/20-1/21 to attend a conference .,O O O O O O O O O O
-"The hotel was clean , rooms rooms were large and comfortable , nothing fancy .",O B-POS O O O B-POS B-POS O O O O O O O O
+"The hotel was clean , rooms were large and comfortable , nothing fancy .",O B-POS O O O B-POS O O O O O O O O
 "No noise , though hotel was half empty I'm extremely sensitive to noise at hotels and was not disturbed both evenings or in the mornings .",O O O O B-POS O O O O O O O O O O O O O O O O O O O O O
 Is an older building but appeared to be well maintained .,O O O B-POS O O O O O O O
-Interior corridors Interior corridors clean and well lit .,B-POS I-POS B-POS I-POS O O O O O
+Interior corridors clean and well lit .,B-POS I-POS O O O O O
 Exterior grounds well kept .,B-POS I-POS O O O
 Has elevators on both sides of the building .,O O O O O O O B-POS O
 "Has a nice pool and very hot jaquizzi , was clean .",O O O B-POS O O O B-POS O O O O
-"The pool pool was well heated so swimming was possible in the winter climate , even at night .",O B-POS B-POS O O O O O O O O O O O O O O O O
+"The pool was well heated so swimming was possible in the winter climate , even at night .",O B-POS O O O O O O O O O O O O O O O O
 "Hotel provides free pass to Golds Gym , a five minute walk from front door .",B-POS O O O O O O O O O O O O O O O
 Staff was freindly and professional for the most part .,B-POS O O O O O O O O O
 "Has good airport shuttle , ten minutes unless heavy traffic , then at worst 20 minutes .",O O B-POS I-POS O O O O O O O O O O O O O
@@ -183,8 +183,8 @@ This hotel is the best Best Western I have stayed in .,O O O O O B-POS I-POS O O
 Not especially attractive outside or surrounding area but convenient location and walk to small strip malls c eateries .,O O O B-NEG O B-NEG I-NEG O O B-POS O O O O O O O O O
 Inside hotel hotel is cool and southwestern .,O B-POS B-NEU O O O O O
 Hotel desk staff was friendly .,B-POS I-POS I-POS O O O
-"There is a complimentary shuttle shuttle that goes anywhere in 5 mi area , including airport , and runs early am until about 10 pm .",O O O O B-POS B-POS O O O O O O O O O O O O O O O O O O O O
-Free high speed internet internet .,O O O B-POS B-POS O
+"There is a complimentary shuttle that goes anywhere in 5 mi area , including airport , and runs early am until about 10 pm .",O O O O B-POS O O O O O O O O O O O O O O O O O O O O
+Free high speed internet .,O O O B-POS O
 Very comfortable room .,O O B-POS O
 Pool area Pool area clean but not very attractive .,B-POS I-POS B-NEG I-NEG O O O O O O
 "Two dificulties I had were : One , the restaurant service was terrible !",O O O O O O O O O B-NEG I-NEG O O O
@@ -199,7 +199,7 @@ Then she credited me for my points .,O O O O O O O O
 I would definitely stay here again when in the Phoenix area !,O O O O O O O O O O O O
 "Good motel , Poor location",O B-POS O O B-NEG
 We stayed at this hotel for four nights .,O O O O O O O O O
-"My overall sense is that this was a good motel motel , comparatively inexpensive .",O O O O O O O O O B-POS B-POS O O O O
+"My overall sense is that this was a good motel , comparatively inexpensive .",O O O O O O O O O B-POS O O O O
 Pros :,O O
 - Comparatively inexpensive,O O O
 "- Microwave , refrigerator , coffee maker in room",O O O O O O O O B-POS
@@ -215,14 +215,14 @@ M .,O O
 Great airport location,O O B-POS
 I stayed 1 night at the Hilton near the Phoenix airport .,O O O O O O O O O O O O
 It was very quiet considering being so close to the airport .,O O O O O O O O O O O O
-"Very clean and comfortable room room , helpful and friendly staff .",O O O O B-POS B-POS O O O O B-POS O
+"Very clean and comfortable room , helpful and friendly staff .",O O O O B-POS O O O O B-POS O
 The food in the Bar and Grille was just ok .,O B-NEU O O O O O O O O O
-There is a charge for internet access internet access in the room but it works great .,O O O O O B-NEG I-NEG B-POS I-POS O O O O O O O O
+There is a charge for internet access internet access in the room but it works great .,O O O O O B-POS I-POS B-NEG I-NEG O O O O O O O O
 You can print boarding passes at a kiosk near the front desk but it can be busy first thing in the morning so you might want to do it the day before .,O O O O O O O B-NEU O O O O O O O O O O O O O O O O O O O O O O O O O
 I left on the 7:00am shuttle and the ride to the airport was quick and hassle-free .,O O O O O B-POS O O O O O O O O O O O
 Excellent !,O O
 Wow ! What a great hotel !,O O O O O B-POS O
-"Rooms Rooms were clean , easy accessible .",B-POS B-POS O O O O O O
+"Rooms were clean , easy accessible .",B-POS O O O O O O
 Beds were so comfortable !,B-POS O O O O
 Staff was friendly .,B-POS O O O
 "Pool was heated , had a great atmosphere with unlimited bottled water available while swimming/laying out .",B-POS O O O O O O O O O O O O O O O O
@@ -259,8 +259,8 @@ The staff was friendly .,O B-POS O O O
 No wifi only in the hotel lobby .,O O O O O O O O
 "If you get a suite with a stove dont except dishes , pots and pans they do not provide them you have to buy your own .",O O O O B-NEG O O O O O O O O O O O O O O O O O O O O O O
 Pay the 20 extra and stay somewhere's else,O O O O O O O O
-"Great hotel hotel , great location , great price",O B-POS B-POS O O B-POS O O O
+"Great hotel , great location , great price",O B-POS O O B-POS O O O
 I had a great time at this hotel and did not experience any of what the bad reviews are about .,O O O O O O O B-POS O O O O O O O O O O O O O
-"The staff was very friendly and helpful , the rooms rooms were large and comfortable , the free breakfast breakfast was great , and the location downtown was excellent .",O B-POS O O O O O O O B-POS B-POS O O O O O O O B-POS B-POS O O O O O B-POS O O O O
+"The staff was very friendly and helpful , the rooms were large and comfortable , the free breakfast was great , and the location downtown was excellent .",O B-POS O O O O O O O B-POS O O O O O O O B-POS O O O O O B-POS O O O O
 The free shuttle to and from the airport saved us over 30 dollars alone in taxi cab fare ( Phoenix Taxi fares are ridiculously expensive ) and is also available anywhere downtown .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 I would highly recommend this hotel to anyone wanting to stay in downtown Phoenix .,O O O O O B-POS O O O O O O O O O

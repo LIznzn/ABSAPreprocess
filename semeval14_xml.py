@@ -13,11 +13,12 @@ def semeval14_parser(file_path, term_type="aspect", rm_conflict_senti=True):
             senti_tag_dict = {"positive": "POS", "negative": "NEG", "neutral": "NEU", "conflict": "CON"}
 
     datas = []
+    aspect_count = 0
 
     root = ET.parse(file_path).getroot()
 
     for sent in root.iter("sentence"):
-        opins = []
+        opins = set()
         for opin in sent.iter("aspectTerm"):
             from_idx = int(opin.attrib["from"])
             to_idx = int(opin.attrib["to"])
@@ -26,11 +27,12 @@ def semeval14_parser(file_path, term_type="aspect", rm_conflict_senti=True):
                 polarity = opin.attrib["polarity"]
             if from_idx != to_idx and term != "NULL":
                 if term_type == "join":
-                    opins.append((term, from_idx, to_idx, polarity))
+                    opins.add((term, from_idx, to_idx, polarity))
                 else:
-                    opins.append((term, from_idx, to_idx))
+                    opins.add((term, from_idx, to_idx))
 
-        opins = sorted(opins, key=lambda x: x[1])
+        opins = sorted(list(opins), key=lambda x: x[1])
+        aspect_count += len(opins)
 
         text = sent.find("text").text
         text_chunks = []
@@ -86,17 +88,18 @@ def semeval14_parser(file_path, term_type="aspect", rm_conflict_senti=True):
 
         datas.append([text_out, label_out])
 
+    print(aspect_count)
     return datas
 
 if __name__ == "__main__":
 
     file_map = {
         "restaurant": {
-            "train": ("datasets/SemEval2014/train/Restaurants_Train_v2.xml", "join"), # join/aspect
+            "train": ("datasets/SemEval2014/train/Restaurants_Train_v2.xml", "aspect"), # join/aspect
             "test": ("datasets/SemEval2014/test/Restaurants_Test_Data_phaseB.xml", "aspect")
         },
         "laptop": {
-            "train": ("datasets/SemEval2014/train/Laptop_Train_v2.xml", "join"), # join/aspect
+            "train": ("datasets/SemEval2014/train/Laptop_Train_v2.xml", "aspect"), # join/aspect
             "test": ("datasets/SemEval2014/test/Laptops_Test_Data_phaseB.xml", "aspect")
         }
     }

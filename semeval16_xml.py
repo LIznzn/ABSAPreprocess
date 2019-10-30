@@ -4,7 +4,7 @@ import codecs
 import csv
 
 
-def semeval14_parser(file_path, term_type="aspect", rm_conflict_senti=True):
+def semeval16_parser(file_path, term_type="aspect", rm_conflict_senti=True):
 
     if term_type == "join":
         if rm_conflict_senti:
@@ -13,11 +13,12 @@ def semeval14_parser(file_path, term_type="aspect", rm_conflict_senti=True):
             senti_tag_dict = {"positive": "POS", "negative": "NEG", "neutral": "NEU", "conflict": "CON"}
 
     datas = []
+    aspect_count = 0
 
     root = ET.parse(file_path).getroot()
 
     for sent in root.iter("sentence"):
-        opins = []
+        opins = set()
         for opin in sent.iter("Opinion"):
             from_idx = int(opin.attrib["from"])
             to_idx = int(opin.attrib["to"])
@@ -26,11 +27,12 @@ def semeval14_parser(file_path, term_type="aspect", rm_conflict_senti=True):
                 polarity = opin.attrib["polarity"]
             if from_idx != to_idx and term != "NULL":
                 if term_type == "join":
-                    opins.append((term, from_idx, to_idx, polarity))
+                    opins.add((term, from_idx, to_idx, polarity))
                 else:
-                    opins.append((term, from_idx, to_idx))
+                    opins.add((term, from_idx, to_idx))
 
-        opins = sorted(opins, key=lambda x: x[1])
+        opins = sorted(list(opins), key=lambda x: x[1])
+        aspect_count += len(opins)
 
         text = sent.find("text").text
         text_chunks = []
@@ -86,6 +88,8 @@ def semeval14_parser(file_path, term_type="aspect", rm_conflict_senti=True):
 
         datas.append([text_out, label_out])
 
+    print(aspect_count)
+
     return datas
 
 if __name__ == "__main__":
@@ -99,7 +103,7 @@ if __name__ == "__main__":
 
     for dataset, dataset_value in file_map.items():
         for train_test, file_param_value in dataset_value.items():
-            datas = semeval14_parser(file_path=file_param_value[0], term_type=file_param_value[1])
+            datas = semeval16_parser(file_path=file_param_value[0], term_type=file_param_value[1])
             out_path = "datasets/SemEval2016/mydata/{}_{}_{}_{}.csv".format(dataset, train_test, file_param_value[1], len(datas))
             with codecs.open(out_path, "w", "utf-8") as f:
                 writer = csv.writer(f)
