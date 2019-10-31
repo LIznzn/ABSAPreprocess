@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
-from utils import punc_seperator
 import codecs
 import csv
+import nltk
 
 
 def semeval16_parser(file_path, term_type="aspect", rm_conflict_senti=True):
@@ -50,7 +50,7 @@ def semeval16_parser(file_path, term_type="aspect", rm_conflict_senti=True):
 
             # aspect term left
             tmp_text = text[prev_i:opin_i_from].strip()
-            tmp_text = punc_seperator(tmp_text) # [w1, w2, w3, ...]
+            tmp_text = nltk.word_tokenize(tmp_text) # [w1, w2, w3, ...]
             tmp_label = ["O"] * len(tmp_text) # [O, O, O, ...]
             text_chunks.extend(tmp_text)
             label_chunks.extend(tmp_label)
@@ -77,7 +77,7 @@ def semeval16_parser(file_path, term_type="aspect", rm_conflict_senti=True):
 
         # rest of the sentences
         tmp_text = text[prev_i:].strip()
-        tmp_text = punc_seperator(tmp_text) # [w1, w2, w3, ...]
+        tmp_text = nltk.word_tokenize(tmp_text) # [w1, w2, w3, ...]
         tmp_label = ["O"] * len(tmp_text)
         text_chunks.extend(tmp_text)
         label_chunks.extend(tmp_label)
